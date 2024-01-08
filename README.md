@@ -472,6 +472,7 @@ func demoFunc() {
 
 ### 微服务整体使用示例
 使用rpc框架对单节点进行链路追踪时需要在本地192.168.100.100先开启jaeger服务
+
 服务端：
 ```
 package main  
@@ -692,7 +693,6 @@ func logSumPrint(err error, reply int) {
 }
 ```
 
-```
 访问http://localhost:9002/orderCenter/sum
 客户端和服务端结果如下示例：
 
