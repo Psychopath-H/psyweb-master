@@ -1,0 +1,13 @@
+[log]
+path="./log"
+
+[template]
+pattern="template/*"
+
+[db]
+mysql.username=""
+mysql.password=""
+mysql.url=""
+
+[pool]
+cap=2

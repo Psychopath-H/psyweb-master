@@ -1,0 +1,10 @@
+go 1.21.1
+
+use (
+	./blog
+	./psygo
+	./psygo/orm
+	./psygo/rpc
+	./goodsCenter
+	./orderCenter
+)
